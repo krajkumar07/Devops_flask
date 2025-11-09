@@ -14,7 +14,7 @@ def fun():
     age=request.values.get('age')
     restult={
         'name': name,
-         'age':age
+        'age':age
     }
     return restult
 
